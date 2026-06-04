@@ -7,13 +7,14 @@ authors = [
     { name = "Simon Willison" },
 ]
 license = "Apache-2.0"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Intended Audience :: End Users/Desktop",
     "Intended Audience :: Science/Research",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -51,7 +52,7 @@ dev = [
     "pytest-asyncio",
     "cogapp",
     "mypy>=1.10.0",
-    "black>=26.3.1",
+    "black>=25.11.0,<26",
     "pytest-recording",
     "ruff",
     "syrupy",
